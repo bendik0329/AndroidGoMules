@@ -1,0 +1,40 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!-- custom application theme. -->
+    <style name="GoMuleTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+    <!--theme for button-->
+    <item name="android:buttonStyle">@style/GoMuleButtonTheme</item>
+        <!--theme for edit text-->
+    <item name="android:editTextStyle">@style/GoMuleEditTextTheme</item>
+    </style>
+
+
+<!--    button style start-->
+    <style name="GoMuleButtonTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <!-- color specific -->
+    <item name="android:textColor">@color/colorWhite</item>
+    <!-- dimension specific-->
+    <item name="android:textSize">@dimen/text_size</item>
+   <!-- background color-->
+   <item name="android:background">@color/colorRed</item>
+   <item name="android:textStyle">bold</item>
+    </style>
+<!--    button style ends-->
+
+
+    <!--    Edit Text style start-->
+    <style name="GoMuleEditTextTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- color specific -->
+        <item name="android:textColor">@color/colorBlack</item>
+        <!-- dimension specific-->
+        <item name="android:textSize">@dimen/text_size</item>
+    </style>
+    <!--    Edit Text ends-->
+
+</resources>

@@ -1,6 +1,6 @@
-package com.amits.gomules.Entity;
+package com.amits.gomules.Utils;
 
-public class Ride {
+public class RideTable {
 
     public static final String TableName="Ride";
     public static final String ID="ID";
@@ -12,4 +12,6 @@ public class Ride {
     public static final String AvailableDate="AvailableDate";
     public static final String Cost="Cost";
     public static final String CreatedOn="CreatedOn";
+    public static final String Source="Source";
+    public static final String Destination="Destination";
 }

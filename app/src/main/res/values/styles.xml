@@ -1,31 +1,34 @@
 <resources>
 
-    <!-- Base application theme. -->
+<!--
+     Base application theme.
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
+        &lt;!&ndash; Customize your theme here. &ndash;&gt;
     </style>
+-->
 
     <!-- custom application theme. -->
     <style name="GoMuleTheme" parent="Theme.AppCompat.Light.DarkActionBar">
 
-    <!--theme for button-->
-    <item name="android:buttonStyle">@style/GoMuleButtonTheme</item>
+        <!--theme for button-->
+        <item name="android:buttonStyle">@style/GoMuleButtonTheme</item>
         <!--theme for edit text-->
-    <item name="android:editTextStyle">@style/GoMuleEditTextTheme</item>
+        <item name="android:editTextStyle">@style/GoMuleEditTextTheme</item>
     </style>
 
 
-<!--    button style start-->
+    <!--    button style start-->
     <style name="GoMuleButtonTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-    <!-- color specific -->
-    <item name="android:textColor">@color/colorWhite</item>
-    <!-- dimension specific-->
-    <item name="android:textSize">@dimen/text_size</item>
-   <!-- background color-->
-   <item name="android:background">@color/colorRed</item>
-   <item name="android:textStyle">bold</item>
+        <!-- color specific -->
+        <item name="android:textColor">@color/colorWhite</item>
+        <!-- dimension specific-->
+        <item name="android:textSize">@dimen/text_size</item>
+        <!-- background color-->
+        <item name="android:background">@color/colorRed</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAlignment">center</item>
     </style>
-<!--    button style ends-->
+    <!--    button style ends-->
 
 
     <!--    Edit Text style start-->
@@ -35,6 +38,15 @@
         <!-- dimension specific-->
         <item name="android:textSize">@dimen/text_size</item>
     </style>
+
+    <style name="GoMuleTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="GoMuleTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="GoMuleTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
     <!--    Edit Text ends-->
 
 </resources>

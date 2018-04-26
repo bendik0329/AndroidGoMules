@@ -1,7 +1,7 @@
-package com.amits.gomules.Entity;
+package com.amits.gomules.Utils;
 
 /*Class for keywords related to registration*/
-public class User {
+public class UserTable {
 
     public static final String TableName="User";
     public static final String ID="ID";

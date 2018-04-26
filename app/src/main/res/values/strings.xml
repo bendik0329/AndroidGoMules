@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">GoMules</string>
+    <string name="app_name">Go Mules Ride</string>
 
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
@@ -13,4 +13,25 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
+    <string name="login_failed">"Login failed. Either email or password is wrong."</string>
+    <string name="registration_success">"Registration successful."</string>
+    <string name="title_activity_navigation">Go Mules Ride</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Go Mules Ride</string>
+    <string name="nav_header_subtitle">An app to ease ride finding</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_home">Home</string>
+    <string name="action_postride">Post a Ride</string>
+    <string name="action_ridelist">Rides List</string>
+    <string name="action_location">Our Location</string>
+    <string name="action_aboutus">About Us</string>
+    <string name="action_logout">Log Out</string>
+    <string name="registration_failed">Registration failed. Some error occured or email already exists.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ride_added">Ride details added successfully</string>
+    <string name="error_ride_add">Error occured while adding ride details</string>
+    <string name="title_activity_maps">Map</string>
 </resources>
